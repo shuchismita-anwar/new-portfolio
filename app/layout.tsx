@@ -18,7 +18,6 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Shuchismita's Portfolio",
   description: "My academic portfolio",
-  generator: "",
 }
 
 export default function RootLayout({
