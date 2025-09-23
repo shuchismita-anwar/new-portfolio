@@ -128,10 +128,10 @@ export default function AcademicPortfolio() {
               <div className="space-y-4">
                 <h1 className="text-5xl font-bold font-serif text-primary">{"Shuchismita Anwar"}</h1>
                 <p className="text-xl text-muted-foreground">
-                  Researcher in Artificial Intelligence, Machine Learning, and Quantum Machine Learning{" "}
+                  Researcher in Artificial Intelligence, Machine Learning, and Computer Vision{" "}
                 </p>
                 <p className="text-lg text-secondary leading-relaxed">
-                  Advancing intelligent systems at the intersection of quantum machine learning, medical imaging, and
+                  Advancing intelligent systems at the intersection of computational imaging, large language models, and
                   multimodal AI through rigorous research and development.
                 </p>
               </div>
@@ -232,8 +232,7 @@ export default function AcademicPortfolio() {
             <CardContent className="p-8">
               <div className="prose prose-lg max-w-none">
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  I am a researcher in artificial intelligence with a strong background in machine learning, deep
-                  learning, and quantum computing. My work explores how computational models can be made more efficient,
+                  I am a researcher in artificial intelligence with a strong background in machine learning, and multimodal learning. My work explores how computational models can be made more efficient,
                   interpretable, and impactful, with applications ranging from multimodal learning to medical data
                   analysis.
                 </p>
@@ -274,7 +273,7 @@ export default function AcademicPortfolio() {
                       Tanjim Islam Riju*, <span className="font-bold">Shuchismita Anwar*</span>, Saman Sarker Joy, Farig
                       Sadeque, Swakkhar Shatabda
                     </p>
-                    <CardDescription>Submitted to 40th AAAI • 2026</CardDescription>
+                    <CardDescription>Submitted to 14th ICLR • 2026</CardDescription>
                     <Badge variant="secondary" className="w-fit">
                       {"Under Review"}
                     </Badge>
@@ -620,15 +619,15 @@ export default function AcademicPortfolio() {
             </Card>
           </div>
 
-          <Card className="max-w-2xl mx-auto">
+          {/* <Card className="max-w-2xl mx-auto">
             <CardHeader>
               <CardTitle>Get in Touch</CardTitle>
               <CardDescription>
                 Interested in collaboration or have questions about my research? I'd love to hear from you.
               </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form action="https://formspree.io/f/mqakeqgp" method="POST" className="space-y-4">
+            </CardHeader> */}
+            {/* <CardContent> */}
+              {/* <form action="https://formspree.io/f/mqakeqgp" method="POST" className="space-y-4">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="name" className="text-sm font-medium">
@@ -658,9 +657,9 @@ export default function AcademicPortfolio() {
                 <Button type="submit" className="w-full bg-accent hover:bg-accent/90">
                   Send Message
                 </Button>
-              </form>
-            </CardContent>
-          </Card>
+              </form> */}
+            {/* </CardContent>
+          </Card> */}
         </section>
       </main>
 
